@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'echo "Hello World 2"'
+                sh 'echo "Hello World 2021.11.04.17.33"'
                 sh '''
                     echo "Multiline shell steps works too"
                     ls -lah
